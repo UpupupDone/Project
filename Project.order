@@ -1,0 +1,7 @@
++[ViewController load]
+_test
+-[ViewController hello]
+-[ViewController viewDidLoad]
+-[ViewController tableView]
+-[ViewController initialize]
+_main

@@ -1,0 +1,91 @@
+PODS:
+  - AFNetworking (2.3.0):
+    - AFNetworking/NSURLConnection (= 2.3.0)
+    - AFNetworking/NSURLSession (= 2.3.0)
+    - AFNetworking/Reachability (= 2.3.0)
+    - AFNetworking/Security (= 2.3.0)
+    - AFNetworking/Serialization (= 2.3.0)
+    - AFNetworking/UIKit (= 2.3.0)
+  - AFNetworking/NSURLConnection (2.3.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.0)
+  - AFNetworking/Security (2.3.0)
+  - AFNetworking/Serialization (2.3.0)
+  - AFNetworking/UIKit (2.3.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CCButton (0.0.4):
+    - CCButton/Core (= 0.0.4)
+  - CCButton/Core (0.0.4):
+    - AFNetworking (= 2.3)
+  - CodeCoverage (0.0.4)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - KVOController (1.2.0)
+  - QCCrashSafety (0.0.4):
+    - QCSwizzling
+  - QCDataBase (0.0.1):
+    - Realm
+  - QCEventCalendar (0.0.1)
+  - QCSwizzling (0.0.1)
+  - QCThreadSafeContainer (0.0.1)
+  - Realm (10.12.0):
+    - Realm/Headers (= 10.12.0)
+  - Realm/Headers (10.12.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - CCButton (= 0.0.4)
+  - CodeCoverage
+  - GCDWebServer
+  - KVOController
+  - QCCrashSafety (= 0.0.4)
+  - QCDataBase (= 0.0.1)
+  - QCEventCalendar (= 0.0.1)
+  - QCSwizzling (= 0.0.1)
+  - QCThreadSafeContainer (= 0.0.1)
+  - Realm
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - GCDWebServer
+    - KVOController
+    - Realm
+    - YYKit
+  https://github.com/UpupupDone/PrivateSpec:
+    - CCButton
+    - CodeCoverage
+    - QCCrashSafety
+    - QCDataBase
+    - QCEventCalendar
+    - QCSwizzling
+    - QCThreadSafeContainer
+
+SPEC CHECKSUMS:
+  AFNetworking: 29871543aa6e8ece4f9557efad6613c57257c93f
+  CCButton: c26d2e7603ec800797ba5bc00d8ee197bfb7136b
+  CodeCoverage: ec153a12bc8f19dff016b8f35178cf873b37f466
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  QCCrashSafety: 6c72e2ee0ab01c43fa9c6ed264f91217d83ff847
+  QCDataBase: 70f63017554ab15314a2c5d07357f2815bdffe06
+  QCEventCalendar: 5b8cadab6ff4ed27bee07f4edfe19119a1466500
+  QCSwizzling: 67bb40e01a94dbbb15b5ea517162644db6660818
+  QCThreadSafeContainer: b64fe058ecfc66db6bc63297e7bb72632a934d44
+  Realm: 32488213acb44660539c619d620cec1bac046166
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: cc7b85387132e5cdb9d5615597394810e8cad421
+
+COCOAPODS: 1.10.1
